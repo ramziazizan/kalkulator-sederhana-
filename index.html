@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana (PHP)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator Sederhana PHP</h1>
+        
+        <form action="kalkulator.php" method="post">
+            <div class="input-group">
+                <label for="angka1">Angka Pertama:</label>
+                <input type="number" name="angka1" id="angka1" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="angka2">Angka Kedua:</label>
+                <input type="number" name="angka2" id="angka2" required>
+            </div>
+            
+            <div class="operator-group">
+                <button type="submit" name="operasi" value="tambah">+</button>
+                <button type="submit" name="operasi" value="kurang">-</button>
+                <button type="submit" name="operasi" value="kali">x</button>
+                <button type="submit" name="operasi" value="bagi">/</button>
+            </div>
+        </form>
+    </div>
+    
+    <script>
+        // JS di sini hanya untuk memastikan input fokus, tidak ada logika PHP
+    </script> 
+</body>
+                  </html>
